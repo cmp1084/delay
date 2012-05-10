@@ -1,0 +1,36 @@
+README
+=======
+
+Introduction
+-------------
+delay is a small program that delay during a number of seconds, given by
+the first parameter. The program make no effort to delay very accurate.
+Primary usage for this program is in crude scripts or CLI when other "sleep"
+commands are not available.
+
+Example, delay 2 seconds:
+#$ delay 2
+
+Building
+---------
+Use the Makefile by executing 'make' in a terminal.
+
+#$ make
+
+
+Installing
+-----------
+
+#$ make install
+
+or if you want to specify the install directory:
+
+#$ make install INSTALLDIR=your/dir
+
+Uninstalling
+-------------
+#$ make uninstall
+
+or if you have specified an install directory:
+
+#$ make uninstall INSTALLDIR=your/dir
